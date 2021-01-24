@@ -212,13 +212,15 @@ div#searchform.jhp {
   margin-top: 0;
 }
 
-.hp, #searchform {
+.hp,
+#searchform {
   position: absolute;
   top: 311px;
 }
 
-.hp, #searchform {
-	min-width: 400px;
+.hp,
+#searchform {
+  min-width: 400px;
 }
 
 #searchform {
@@ -238,7 +240,7 @@ div#searchform.jhp {
   margin: 0 auto;
   padding-top: 6px;
   width: auto;
-  max-width: 484px;
+  max-width: 584px;
 }
 
 .tfB0Bf {
@@ -251,21 +253,22 @@ div#searchform.jhp {
   z-index: 0;
 }
 
-.tfB0Bf input[type="submit"], .gbqfba {
-	background-color: #f8f9fa;
-	border: 1px solid #f8f9fa;
-	border-radius: 4px;
-	color: #3c4043;
-	font-family: arial,sans-serif;
-	font-size: 14px;
-	margin: 11px 4px;
-	padding: 0 16px;
-	line-height: 27px;
-	height: 36px;
-	min-width: 54px;
-	text-align: center;
-	cursor: pointer;
-	user-select: none;
+.tfB0Bf input[type="submit"],
+.gbqfba {
+  background-color: #f8f9fa;
+  border: 1px solid #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
 }
 
 .RNNXgb {
@@ -276,9 +279,19 @@ div#searchform.jhp {
   border-radius: 24px;
   height: 44px;
   margin: 0 auto;
-  width: auto;
 }
 
+.RNNXgb:hover,
+.sbfc .RNNXgb {
+  background-color: #fff;
+  box-shadow: 0 1px 6px rgba(32, 33, 36, 0.28);
+  border-color: rgba(223, 225, 229, 0);
+}
+
+#searchform.big .RNNXgb {
+  width: 582px;
+  width: auto;
+}
 .SDkEP {
   flex: 1;
   display: flex;
@@ -297,9 +310,19 @@ div#searchform.jhp {
   margin: auto;
 }
 
+.z1asCe svg {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
 .wFncld {
   margin-top: 3px;
   color: #9aa0a6;
+}
+
+.z1asCe {
+  fill: currentColor;
+  line-height: 24px;
 }
 
 .a4bIc {
@@ -317,7 +340,7 @@ div#searchform.jhp {
 
 .gsfi,
 .lst {
-  font: 16px;
+  font: 16px arial, sans-serif;
   line-height: 34px;
   height: 34px !important;
 }
